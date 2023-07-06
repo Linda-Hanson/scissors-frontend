@@ -28,7 +28,7 @@ function Signup() {
 
     if (email && passWord && name) {
       e.preventDefault();
-      let url = `http://localhost:8000/api/users/`;
+      let url = `https://scissors-api-ew6j.onrender.com/api/users/`;
 
       fetch(url, {
         method: 'POST',
